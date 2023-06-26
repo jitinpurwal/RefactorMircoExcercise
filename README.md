@@ -10,7 +10,7 @@ This could be code you just inherited from a legacy code-base. Now you want to w
 
 For each exercise, there is only one class you are interested in writing tests for right now. As a first step, try to get some kind of test in place before you change the class at all. Identify why the class is hard to write tests for, and which SOLID principles are not being followed.
 
-When you have some kind of test to lean on, refactor the code and make it testable. Take care when refactoring not to alter the functionality, or change interfaces which other client code may rely on. Add more tests to cover the functionality of the particular class you've been asked to get under test.
+When you have some kind of test to lean on, refactor the code and make it testable. **Take care when refactoring not to alter the functionality, or change interfaces which other client code may rely on. Client classes simulate a dependency on the main class and should not be altered. **. Add more tests to cover the functionality of the particular class you've been asked to get under test.
 
 Apply the unit testing style and framework you are most comfortable with. You can choose to use stubs or mocks or none at all. If you do, you are free to use the mocking tool that you prefer.
 
